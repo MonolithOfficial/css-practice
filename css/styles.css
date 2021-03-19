@@ -1,0 +1,253 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+section {
+    margin-bottom: 50px !important;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+header {
+    background: white;
+}
+
+header {
+    padding: 25px;
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+header img {
+    display: block;
+    max-width: 300px;
+    width: 70%;
+    min-width: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+header h1, h3 {
+    text-align: center;
+}
+
+#aboutme {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    column-gap: 2rem;
+    /* flex: 1; */
+    justify-content: space-between;
+}
+
+#aboutme img {
+    flex: 1 1 0;
+    flex-grow: 1;
+    width: 30%;
+    object-fit: cover;
+  /* width: 0; */
+}
+
+.aboutme_text {
+    padding: 50px;
+    background: yellow;
+    flex: 1 1 0;
+}
+
+/* #projects {
+    background: white;
+} */
+#projects h1 {
+    color: white;
+    text-align: center;
+}
+
+#projectsGrid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* column-gap: 0.1rem; */
+    gap: 1rem;
+}
+
+#projectsGrid img, .card {
+    min-width: 260px;
+    min-height: 260px;
+    flex: 0 0 auto;
+}
+
+#projectsGrid img {
+    background: white;
+    width: 10%;
+}
+
+.card {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.card:nth-child(2){
+    background: rgb(47, 47, 170);
+    color: white;
+}
+.card:nth-child(4){
+    background: rgb(47, 47, 170);
+    color: white;
+}
+.card:nth-child(5){
+    background: rgb(47, 47, 170);
+    color: white;
+}
+.card:nth-child(7){
+    background: rgb(47, 47, 170);
+    color: white;
+}
+
+.card:hover {
+    background: yellow;
+    color: black;
+}
+
+
+#experience h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+#experienceDiv{
+    padding: 50px;
+    background-color: white;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#experienceDiv table {
+    width: 100%;
+    margin: 40px;
+}
+
+#experienceDiv table td {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+#educationAndSkills{
+    /* background: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 4rem;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#educationAndSkills h2{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+#educationAndSkills table {
+    width: 100%;
+    padding-left: 20px;
+}
+
+#educationAndSkills table td {
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+#education {
+    padding: 60px;
+    background: white;
+    flex: 1;
+}
+
+#skills {
+    padding: 60px;
+    background: white;
+    flex: 1;
+}
+
+#afterword {
+    border: 20px solid yellow;
+    margin-bottom: 200px !important;
+    margin-top: 100px !important;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#afterword h1 {
+    color: white;
+    text-align: center;
+}
+
+
+footer {
+    height: 80px;
+    background: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#navLinks {
+    justify-self: flex-start;
+    list-style: none;
+    display: flex;
+    width: 20%;
+    max-width: 250px;
+    justify-content: space-between;
+}
+
+#navLinks li a {
+    text-decoration: none;
+    color: rgb(47, 47, 170);
+    font-size: 25px;
+}
+
+#navLinks li a:hover {
+    background: yellow;
+    color: black;
+}
+
+#logoLinks {
+    justify-self: flex-end;
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 20%;
+    max-width: 200px;
+}
